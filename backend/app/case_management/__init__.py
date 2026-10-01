@@ -1,0 +1,80 @@
+"""
+Case Management Domain Module Package Entrypoint.
+
+Exposes case management models, repositories, schemas, services, and API router.
+"""
+
+from app.case_management.models import (
+    CaseStatus,
+    CaseSeverity,
+    CasePriority,
+    AttachmentType,
+    TaskStatus,
+    TaskPriority,
+    ApprovalStatus,
+    AssignmentRole,
+    ActivityType,
+    Case,
+    CaseComment,
+    CaseAttachment,
+    CaseTask,
+    CaseApproval,
+    CaseActivity,
+    CaseAssignment,
+)
+from app.case_management.schemas import (
+    CaseCreate,
+    CaseUpdate,
+    CaseResponse,
+    CaseFilterParams,
+    CaseCommentCreate,
+    CaseCommentResponse,
+    CaseAttachmentCreate,
+    CaseAttachmentResponse,
+    CaseTaskCreate,
+    CaseTaskResponse,
+    CaseApprovalCreate,
+    CaseApprovalResponse,
+    CaseActivityResponse,
+    CaseAssignmentCreate,
+    CaseAssignmentResponse,
+    CaseSummaryStats,
+)
+from app.case_management.services import CaseService
+
+__all__ = [
+    "CaseStatus",
+    "CaseSeverity",
+    "CasePriority",
+    "AttachmentType",
+    "TaskStatus",
+    "TaskPriority",
+    "ApprovalStatus",
+    "AssignmentRole",
+    "ActivityType",
+    "Case",
+    "CaseComment",
+    "CaseAttachment",
+    "CaseTask",
+    "CaseApproval",
+    "CaseActivity",
+    "CaseAssignment",
+    "CaseCreate",
+    "CaseUpdate",
+    "CaseResponse",
+    "CaseFilterParams",
+    "CaseCommentCreate",
+    "CaseCommentResponse",
+    "CaseAttachmentCreate",
+    "CaseAttachmentResponse",
+    "CaseTaskCreate",
+    "CaseTaskResponse",
+    "CaseApprovalCreate",
+    "CaseApprovalResponse",
+    "CaseActivityResponse",
+    "CaseAssignmentCreate",
+    "CaseAssignmentResponse",
+    "CaseSummaryStats",
+    "CaseService",
+]
+

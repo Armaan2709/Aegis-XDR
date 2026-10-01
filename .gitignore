@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTest / Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.xml
+
+# Environments & Virtual Envs
+.env
+.env.*
+!.env.example
+venv/
+ENV/
+env/
+.venv/
+
+# Node / Frontend
+node_modules/
+dist/
+frontend/dist/
+frontend/build/
+.vite/
+.npm/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Junk
+.DS_Store
+Thumbs.db
+
+# Databases & Local Storage
+*.db
+*.sqlite
+storage/data/*
+storage/evidence/*
+storage/logs/*
+!storage/**/.gitkeep
+volumes/
+
+# Docker volumes & local artifacts
+.dockerdata/
+docker-data/
+
+# Personal / scratch files
+rate.md
+resume.md
+test_bedrock.py
